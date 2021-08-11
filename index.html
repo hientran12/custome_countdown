@@ -16,7 +16,7 @@
     <!-- Container -->
     <div class="container">
         <!-- Input -->
-        <div class="input-container" id="input-container">
+        <div class="input-container" id="input-container" hidden>
             <h1>Create a Custom Countdown</h1>
             <form class="form" id="countdownForm">
                 <label for="title">Title</label>
@@ -25,6 +25,23 @@
                 <input type="date" id="date-picker">
                 <button type="submit">submit</button>
             </form>
+        </div>
+        <!-- Countdown -->
+        <div class="countdown" id="countdown" hidden>
+            <h1 id="countdown-title">Countdown Title Here</h1>
+            <ul>
+                <li><span>3</span>Day</li>
+                <li><span>59</span>Hours</li>
+                <li><span>40</span>Minutes</li>
+                <li><span>30</span>Seconds</li>
+            </ul>
+            <button id="countdown-button">Reset Countdown</button>
+        </div>
+        <!-- Complete -->
+        <div class="complete" id="complete">
+            <h1 class="complete-title">Countdown complete</h1>
+            <h1 id="complete-info">Countdown Finished on 01-12-2021</h1>
+            <button id="complete-button">New Countdown</button>
         </div>
     </div>
     <!-- Script -->
