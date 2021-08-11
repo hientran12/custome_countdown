@@ -135,24 +135,24 @@ li span {
 /* Create complete animation */
 @keyframes complete {
   0% {
-    color: rgb(189, 13, 13);
+    color: rgb(77, 60, 119);
   }
 
   25% {
-    color: rgb(189, 157, 13);
+    color: rgb(77, 60, 129);
   }
 
   50% {
-    color    : rgb(13, 189, 80);
+    color    :rgb(77, 60, 139);
     transform: scale(1.3);
   }
 
   75% {
-    color: rgb(13, 148, 189);
+    color: rgb(77, 60, 149);
   }
 
   100% {
-    color: rgb(124, 13, 189);
+    color: rgb(77, 60, 159);
   }
 }
 
